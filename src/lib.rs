@@ -7,6 +7,10 @@ pub struct Vec3 {
     e: [f64; 3],
 }
 
+pub fn do_smth(num:i32) -> i32 {
+    num * 2
+}
+
 impl Vec3 {
     pub fn empty() -> Vec3 {
         let v = Vec3 { e: [0.0, 0.0, 0.0] };
