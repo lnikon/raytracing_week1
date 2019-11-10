@@ -1,4 +1,4 @@
-mod vec3 {
+pub mod vec3 {
 
     use std::ops::{Add, Div, Index, IndexMut, Mul, Neg, Sub};
 
